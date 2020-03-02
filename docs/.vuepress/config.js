@@ -8,7 +8,12 @@ module.exports = {
         { text: 'ルール', link: '/rule/' },
         { text: 'Twitter', link: 'https://twitter.com/koiotonet/' }
       ],
-      sidebar: 'auto',
+      sidebar: [
+        '/',
+        '/rule/',
+        
+      ],
+      logo: '/logo/brand.png',
       smoothScroll: true,
       repo: 'Koioto/koioto.net',
     }
