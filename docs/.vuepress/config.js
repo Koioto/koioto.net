@@ -11,7 +11,11 @@ module.exports = {
       sidebar: [
         '/',
         '/rule/',
-        
+        '/env/',
+        '/chart-making/',
+        '/theme/',
+        '/plugin/',
+        '/config/'
       ],
       logo: '/logo/brand.png',
       smoothScroll: true,
