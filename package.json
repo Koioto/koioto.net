@@ -12,5 +12,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-theme-default-prefers-color-scheme": "^1.0.5"
   }
 }
