@@ -53,12 +53,12 @@ Koioto のプラグインを制作するには、いくつかの DLL を使用�
 
 ### プラグインに必要な実装
 
-Koioto がプラグインであると認識するために、``KoiotoPlugin.PluginBase``を継承する必要があります。例えば、MissSoundという名前のプラグインを作成する場合、このように名前空間とクラスを記述します。
+Koioto がプラグインであると認識するために、``Koioto.Plugin.PluginBase``を継承する必要があります。例えば、MissSoundという名前のプラグインを作成する場合、このように名前空間とクラスを記述します。
 
 ```cs
 namespace AioiLight.KoiotoPlugin.MissSound
 {
-    public class MissSound : KoiotoPlugin.PluginBase
+    public class MissSound : Koioto.Plugin.Base
     {
         // ここにプラグインの情報や処理を記述していく
     }
