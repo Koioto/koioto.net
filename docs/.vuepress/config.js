@@ -12,13 +12,22 @@ module.exports = {
         '/',
         '/rule/',
         '/env/',
-        '/chart-making/',
+        // '/chart-making/',
         '/theme/',
-        '/plugin/',
-        '/config/'
+        '/plugin/'
+        // '/config/'
       ],
+      sidebarDepth: 2,
+      nextLinks: false,
+      prevLinks: false,
       logo: '/logo/brand.png',
       smoothScroll: true,
-      repo: 'Koioto/koioto.net',
+      repo: 'Koioto'
+    },
+    markdown: {
+      lineNumbers: true,
+      toc: {
+        includeLevel: [1, 2, 3]
+      }
     }
   }
