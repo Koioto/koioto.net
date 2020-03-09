@@ -6,7 +6,7 @@ module.exports = {
       nav: [
         { text: 'トップページ', link: '/' },
         { text: 'ルール', link: '/rule/' },
-        { text: 'Twitter', link: 'https://twitter.com/koiotonet/' }
+        { text: 'Discord', link: 'https://discord.gg/kaF5Nc6' }
       ],
       sidebar: [
         '/',
