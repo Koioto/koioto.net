@@ -83,3 +83,51 @@ public override void OnEnable()
 
 ここで、新たに``Amaoto``という名前空間が登場しました。Amaotoは、音の再生や画像の表示などを手助けするライブラリです。これを使用することで比較的容易に音声処理、描画処理が行えるようになります。
 
+Amaoto の使い方はサンプルプラグインを参考にすることでよく理解できると思います。
+
+### もっとプラグイン
+
+プラグイン制作を助けるために、いくつかのクラスが用意されています。
+
+- ``Amaoto.Animation``名前空間。この名前空間にあるクラスは簡易的なアニメーションをサポートします。
+- ``Koioto.Support``名前空間。``Koioto.Support.Bridge``クラスでは Koioto のパスや設定の閲覧、システムサウンドの再生等が行えます。
+
+アニメーションを使用する例:
+
+```cs {4}
+private void StartAnimation()
+{
+    // 0から100までを1秒かけてイーズアウトする
+    Anim = new Amaoto.Animation.EaseOut(0, 100, 1000000);
+}
+
+// 曲読み込み中の描画処理
+public override void OnSongLoading()
+{
+    var animeResult = Anim.GetAnimation() ?? 0;
+
+    // 0から100までの値が入った animeResultを使って何かする
+    // do something
+}
+
+private Amaoto.Animation.EaseOut Anim;
+```
+
+設定を読み取る例:
+
+```cs
+// プラグインが有効化されたときの処理
+public override void OnEnable()
+{
+    // player にプレイ人数が格納される
+    var player = Koioto.Support.Bridge.Settings.Player;
+    
+    if (player > 1)
+    {
+        // player が 2 以上だったら何かする
+        // do something
+    }
+
+    base.OnEnable();
+}
+```
