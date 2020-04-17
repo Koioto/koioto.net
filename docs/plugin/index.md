@@ -42,7 +42,7 @@ Koioto では、プラグインを導入することで、Koioto の動作や見
 
 オーバーレイプラグインを実装するには、``Koioto.Plugin.Overlay``を継承したクラスが必要です。必要に応じて、各メソッドをオーバーライドする必要があります。
 
-オーバーレイプラグインのサンプルが、GitHubにあります([MissSound](https://github.com/Koioto)/[SyncLyric]](https://github.com/Koioto)/[VisualJudge](https://github.com/Koioto))。
+オーバーレイプラグインのサンプルが、GitHubにあります([MissSound](https://github.com/Koioto)/[SyncLyric](https://github.com/Koioto)/[VisualJudge](https://github.com/Koioto))。
 
 ## ファイル読み込みプラグイン
 
