@@ -62,7 +62,7 @@ Koioto では、プラグインを導入することで、Koioto の動作や見
 
 自分でプラグインを制作することも可能です。プラグインを制作するには、プログラミング言語である C# の知識が必要になりますが、自分が思うように機能を追加できます。
 
-Koioto のプラグインを制作するには、いくつかの DLL を使用する必要があるので、それがまとめられた [Koioto Plugin SDK](https://github.com/Koioto) を使う必要があります。
+Koioto のプラグインを制作するには、いくつかの DLL を使用する必要があるので、それがまとめられた [Koioto Plugin SDK](https://github.com/Koioto/KoiotoPluginSDK) を使う必要があります。
 
 ### 必要な環境
 
