@@ -20,3 +20,4 @@ Koioto は太鼓譜フォーマットを再生、演奏するためのソフト�
 
 - [Koioto はじめてガイド](/guide/) ―― Koioto のダウンロードから起動まで、丁寧に解説します。
 - [Discord サーバー](https://discord.gg/kaF5Nc6) ―― Discord の Koioto コミュニティでチャットや質問をしましょう。
+- [GitHub](https://github.com/Koioto) ―― Web サイトの翻訳やプラグイン開発に必要なキットのダウンロードはこちらから。
