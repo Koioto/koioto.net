@@ -22,6 +22,7 @@ module.exports = {
       '/rule/',
       '/env/',
       '/settings/',
+      '/soundmode/',
       // '/chart-making/',
       '/theme/',
       '/plugin/'
