@@ -24,7 +24,6 @@ module.exports = {
       // '/chart-making/',
       '/theme/',
       '/plugin/'
-      // '/config/'
     ],
     sidebarDepth: 2,
     nextLinks: false,
