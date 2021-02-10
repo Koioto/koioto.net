@@ -21,6 +21,7 @@ module.exports = {
       '/',
       '/rule/',
       '/env/',
+      '/settings/',
       // '/chart-making/',
       '/theme/',
       '/plugin/'
