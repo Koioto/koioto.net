@@ -14,20 +14,14 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'トップページ', link: '/' },
-      { text: 'ルール', link: '/rule/' },
+      { text: 'ガイド', link: '/guide/' },
+      { text: 'ダウンロード', link: '/donwload/'},
+      { text: '設定', link: '/config/'},
+      { text: 'テーマ', link: '/theme/'},
+      { text: 'プラグイン', link: '/plugin/'},
       { text: 'Discord', link: 'https://discord.gg/kaF5Nc6' }
     ],
-    sidebar: [
-      '/',
-      '/rule/',
-      '/env/',
-      '/guide/',
-      '/settings/',
-      '/soundmode/',
-      // '/chart-making/',
-      '/theme/',
-      '/plugin/'
-    ],
+    sidebar: 'auto',
     sidebarDepth: 2,
     nextLinks: false,
     prevLinks: false,
