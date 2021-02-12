@@ -18,7 +18,6 @@ module.exports = {
       { text: 'Discord', link: 'https://discord.gg/kaF5Nc6' }
     ],
     sidebar: [
-      '/',
       '/rule/',
       '/env/',
       '/guide/',
@@ -38,7 +37,7 @@ module.exports = {
   markdown: {
     lineNumbers: true,
     toc: {
-      includeLevel: [1, 2, 3]
+      includeLevel: [2, 3]
     }
   },
   plugins: [
