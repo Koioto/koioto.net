@@ -1,4 +1,5 @@
 ---
+title: Koioto
 home: true
 heroImage: /logo/normal.png
 heroText: Koioto
