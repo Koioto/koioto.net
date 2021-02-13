@@ -8,6 +8,14 @@ Windows のスクリーンショットはウィンドウの大きさで解像度
 
 キー (デフォルト: `F12`) を押して、スクリーンショットを撮影します。撮影に成功すると、[デフォルトのテーマ](supernova.html)では左下にスクリーンショットのプレビューが表示されます。
 
+::: tip スクリーンショットのプレビュー
+
+[Settings.json](/config/settings-json.html) で [`screenshotPreview`](/config/settings-json.html#screenshotpreview) をオフにすることで、プレビューを表示せずに撮影することができます。
+
+プレビューがオフでも、後述のクリップボードにコピーする機能は使えます。
+
+:::
+
 撮影されたスクリーンショットは Koioto の `Screenshot` フォルダに保存されます。ファイルフォーマットは PNG です。
 
 ## クリップボードにコピー
