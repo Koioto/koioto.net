@@ -61,7 +61,7 @@ Koioto の設定を変更するには、`Settings.json` を編集します。設
 - 種類: 文字列
 - デフォルト値: `”Wasapi”`
 
-[サウンドモード](/soundmode/)を指定します。
+[サウンドモード](soundmode.html)を指定します。
 
 - `DirectSound`
 - `Wasapi`
