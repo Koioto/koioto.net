@@ -33,7 +33,10 @@ module.exports = {
               children: [
                 '',
                 'rule',
-                'env'
+                'env',
+                'breakfast',
+                'manage-song',
+                'help'
               ]
             }
           ]
