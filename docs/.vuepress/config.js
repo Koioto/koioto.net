@@ -39,6 +39,17 @@ module.exports = {
                 'help'
               ]
             }
+          ],
+          '/config/': [
+            {
+              title: '設定',
+              collapsable: false,
+              children: [
+                '',
+                'settings-json',
+                'soundmode'
+              ]
+            }
           ]
         },
       }
