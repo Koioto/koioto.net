@@ -48,6 +48,7 @@ module.exports = {
               children: [
                 '',
                 'screenshot',
+                'measure-move',
                 'song-folder',
                 'hotreload',
               ]
