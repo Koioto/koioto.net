@@ -20,6 +20,7 @@ module.exports = {
           { text: 'トップページ', link: '/' },
           { text: 'ガイド', link: '/guide/' },
           { text: 'ダウンロード', link: '/donwload/'},
+          { text: '機能', link: '/features/'},
           { text: '設定', link: '/config/'},
           { text: 'テーマ', link: '/theme/'},
           { text: 'プラグイン', link: '/plugin/'},
@@ -27,16 +28,26 @@ module.exports = {
         ],
         sidebar: {
           '/guide/': [
-              {
-              title: 'ガイド',
-              collapsable: false,
-              children: [
+            {
+            title: 'ガイド',
+            collapsable: false,
+            children: [
                 '',
                 'rule',
                 'env',
                 'breakfast',
                 'manage-song',
                 'help'
+              ]
+            }
+          ],
+          '/features/': [
+            {
+              title: '機能',
+              collapsable: false,
+              children: [
+                '',
+                'hotreload',
               ]
             }
           ],
