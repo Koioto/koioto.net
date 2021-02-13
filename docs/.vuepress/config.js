@@ -47,6 +47,8 @@ module.exports = {
               collapsable: false,
               children: [
                 '',
+                'screenshot',
+                'song-folder',
                 'hotreload',
               ]
             }
