@@ -41,8 +41,8 @@ module.exports = {
       }
     },
     sidebarDepth: 2,
-    nextLinks: false,
-    prevLinks: false,
+    nextLinks: true,
+    prevLinks: true,
     logo: '/logo/brand.png',
     smoothScroll: true,
     repo: 'Koioto'
