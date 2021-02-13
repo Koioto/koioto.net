@@ -2,4 +2,5 @@
 
 Koioto の主要な機能の一覧です。
 
+- [スクリーンショット](screenshot.html)
 - [ホットリロード](hotreload.html)
