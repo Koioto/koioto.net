@@ -1,3 +1,11 @@
+const fs = require('fs');
+const path = require('path');
+
+const dir = "./docs/releases/";
+
+const files = fs.readdirSync(dir).map(str => path.basename(str).split('.').slice(0, -1).join('.'));
+const releases = [''].concat(files.filter(str => str != "index").reverse());
+
 module.exports = {
   base: '/',
   locales: {
@@ -19,7 +27,7 @@ module.exports = {
         nav: [
           { text: 'トップページ', link: '/' },
           { text: 'ガイド', link: '/guide/' },
-          { text: 'ダウンロード', link: '/donwload/'},
+          { text: 'ダウンロード', link: '/releases/'},
           { text: '機能', link: '/features/'},
           { text: '設定', link: '/config/'},
           { text: 'テーマ', link: '/theme/'},
@@ -40,6 +48,13 @@ module.exports = {
                 'how2play',
                 'help'
               ]
+            }
+          ],
+          '/releases/': [
+            {
+              title: 'ダウンロード',
+              collapsable: false,
+              children: releases
             }
           ],
           '/features/': [
