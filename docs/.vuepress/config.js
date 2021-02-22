@@ -37,6 +37,7 @@ module.exports = {
                 'env',
                 'breakfast',
                 'manage-song',
+                'how2play',
                 'help'
               ]
             }
