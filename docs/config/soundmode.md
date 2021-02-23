@@ -4,13 +4,13 @@ Koioto では、4 種類の音の鳴らし方を選ぶことができます。�
 
 ## WASAPI 共有モード
 
-[Settings.json](/settings/) での設定値: `Wasapi` (デフォルト)
+[Settings.json](settings-json.html) での設定値: `Wasapi` (デフォルト)
 
 比較的新しい Windows のオーディオ API です。Koioto のデフォルトのサウンドモードです。Windows 10 でこのモードを使用すると**音声の遅延が 10 ミリ秒以内になる**ため、正確なタイミングで音を鳴らすことができます。
 
 ## WASAPI 排他モード
 
-[Settings.json](/settings/) での設定値: `WasapiExclusive`
+[Settings.json](settings-json.html) での設定値: `WasapiExclusive`
 
 比較的新しい Windows のオーディオ API です。**WASAPI 共有モードよりもさらに音声の遅延が小さいモード**で、より正確なタイミングで音を鳴らすことができます。
 
@@ -24,7 +24,7 @@ Koioto では、4 種類の音の鳴らし方を選ぶことができます。�
 
 ## ASIO
 
-[Settings.json](/settings/) での設定値: `Asio`
+[Settings.json](settings-json.html) での設定値: `Asio`
 
 Steinberg 社のオーディオ API です。音楽制作向けで、**Koioto で使用できるサウンドモードの中では最も音声の遅延が小さいモード**です。一部のオーディオインターフェースのみ利用可能なサウンドモードです。また、録画ソフトや画面共有機能のあるアプリケーションで**音を録音できるかは、オーディオインターフェースのドライバによります**。
 
@@ -32,7 +32,7 @@ ASIO 非対応の再生機器で ASIO を使えるようにする「asio4all」�
 
 ## DirectSound
 
-[Settings.json](/settings/) での設定値: `DirectSound`
+[Settings.json](settings-json.html) での設定値: `DirectSound`
 
 Windows のゲーム向けに開発されたオーディオ API です。昔の Windows から使われており、**WindowsPC であれば確実に音を鳴らすことができる**というメリットがあります。
 
