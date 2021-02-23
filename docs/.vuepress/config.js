@@ -1,3 +1,11 @@
+const fs = require('fs');
+const path = require('path');
+
+const dir = "./docs/releases/";
+
+const files = fs.readdirSync(dir).map(str => path.basename(str).split('.').slice(0, -1).join('.'));
+const releases = [''].concat(files.filter(str => str != "index").reverse());
+
 module.exports = {
   base: '/',
   locales: {
@@ -12,24 +20,74 @@ module.exports = {
   ],
   theme: 'default-prefers-color-scheme',
   themeConfig: {
-    nav: [
-      { text: 'トップページ', link: '/' },
-      { text: 'ルール', link: '/rule/' },
-      { text: 'Discord', link: 'https://discord.gg/kaF5Nc6' }
-    ],
-    sidebar: [
-      '/rule/',
-      '/env/',
-      '/guide/',
-      '/settings/',
-      '/soundmode/',
-      // '/chart-making/',
-      '/theme/',
-      '/plugin/'
-    ],
+    locales: {
+      '/': {
+        label: '日本語',
+        selectText: 'Languages',
+        nav: [
+          { text: 'トップページ', link: '/' },
+          { text: 'ガイド', link: '/guide/' },
+          { text: 'ダウンロード', link: '/releases/'},
+          { text: '機能', link: '/features/'},
+          { text: '設定', link: '/config/'},
+          { text: 'テーマ', link: '/theme/'},
+          { text: 'プラグイン', link: '/plugin/'},
+          { text: 'Discord', link: 'https://discord.gg/kaF5Nc6' }
+        ],
+        sidebar: {
+          '/guide/': [
+            {
+            title: 'ガイド',
+            collapsable: false,
+            children: [
+                '',
+                'rule',
+                'env',
+                'breakfast',
+                'manage-song',
+                'how2play',
+                'help'
+              ]
+            }
+          ],
+          '/releases/': [
+            {
+              title: 'ダウンロード',
+              collapsable: false,
+              children: releases
+            }
+          ],
+          '/features/': [
+            {
+              title: '機能',
+              collapsable: false,
+              children: [
+                '',
+                'screenshot',
+                'measure-move',
+                'song-folder',
+                'hotreload',
+                'playing-options'
+              ]
+            }
+          ],
+          '/config/': [
+            {
+              title: '設定',
+              collapsable: false,
+              children: [
+                '',
+                'settings-json',
+                'soundmode'
+              ]
+            }
+          ]
+        },
+      }
+    },
     sidebarDepth: 2,
-    nextLinks: false,
-    prevLinks: false,
+    nextLinks: true,
+    prevLinks: true,
     logo: '/logo/brand.png',
     smoothScroll: true,
     repo: 'Koioto'
