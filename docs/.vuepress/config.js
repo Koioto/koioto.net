@@ -101,6 +101,13 @@ module.exports = {
   plugins: [
         ['@vuepress/google-analytics', {
           ga: 'UA-70020192-7'
-    }]
+    }],
+    ['@vuepress/medium-zoom', {
+        options: {
+          margin: 16,
+          background: "#000"
+        }
+      }
+    ]
  ]
 }
