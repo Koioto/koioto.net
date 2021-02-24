@@ -46,7 +46,7 @@ Koioto 上での表示:
 
 このファイルを Koioto に読み込ませると、こうなります。
 
-<!-- ここに画像 -->
+![フォルダのサンプル](/images/features/folder-sample.png)
 
 ### `name`
 
