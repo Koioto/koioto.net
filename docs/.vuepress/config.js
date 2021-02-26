@@ -25,7 +25,6 @@ module.exports = {
         label: '日本語',
         selectText: 'Languages',
         nav: [
-          { text: 'トップページ', link: '/' },
           { text: 'ガイド', link: '/guide/' },
           { text: 'ダウンロード', link: '/releases/'},
           { text: '機能', link: '/features/'},
