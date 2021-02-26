@@ -29,8 +29,14 @@ module.exports = {
           { text: 'ダウンロード', link: '/releases/'},
           { text: '機能', link: '/features/'},
           { text: '設定', link: '/config/'},
-          { text: 'テーマ', link: '/theme/'},
-          { text: 'プラグイン', link: '/plugin/'},
+          {
+            text: '開発者向け',
+            items: [
+              { text: 'テーマ', link: '/theme/'},
+              { text: 'プラグイン', link: '/plugin/'},
+              { text: 'GitHub', link: 'https://github.com/Koioto'}
+            ]
+          },
           { text: 'Discord', link: 'https://discord.gg/kaF5Nc6' }
         ],
         sidebar: {
@@ -88,8 +94,7 @@ module.exports = {
     nextLinks: true,
     prevLinks: true,
     logo: '/logo/brand.png',
-    smoothScroll: true,
-    repo: 'Koioto'
+    smoothScroll: true
   },
   markdown: {
     lineNumbers: true,
