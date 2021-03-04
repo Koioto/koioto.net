@@ -83,6 +83,7 @@ module.exports = {
               children: [
                 '',
                 'settings-json',
+                'plugins-json',
                 'soundmode'
               ]
             }
