@@ -14,7 +14,7 @@ Koioto では、プラグインを導入することで、Koioto の動作や見
 
 ## プラグインの配置場所
 
-プラグインは Koioto の``Plugin``フォルダに配置されます。例えば、Sample-Pluginという名前のプラグインの場合、``Plugin\Sample-Plugin.dll``がプラグインのファイルとなります。
+プラグインは Koioto の``Plugin``フォルダに配置されます。例えば、Sample-Pluginという名前のプラグインの場合、``Plugins\Sample-Plugin.dll``がプラグインのファイルとなります。
 
 プラグインは複数同時に使用することができます。
 
