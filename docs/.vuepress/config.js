@@ -68,6 +68,7 @@ module.exports = {
               collapsable: false,
               children: [
                 '',
+                'koioto-songs',
                 'screenshot',
                 'measure-move',
                 'song-folder',
