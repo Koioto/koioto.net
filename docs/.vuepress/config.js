@@ -72,7 +72,8 @@ module.exports = {
                 'measure-move',
                 'song-folder',
                 'hotreload',
-                'playing-options'
+                'playing-options',
+                'log'
               ]
             }
           ],
