@@ -6,7 +6,7 @@ Koioto は WindowsPC 上で動作することを想定して制作されてい�
 
 以下の条件をクリアしていれば、Koioto を起動することができます。
 
-- Windows 10 または Windows 7 以降で .NET Framework 4.7.2 がインストールされている
+- Windows 10 1803 以降、または Windows 7 以降で .NET Framework 4.7.2 がインストールされている
 - 64 ビットの CPU
 - DirectX 11 に対応した GPU
 
@@ -14,7 +14,7 @@ Koioto は WindowsPC 上で動作することを想定して制作されてい�
 
 ここでは、Koioto を快適に利用できるための推奨環境を掲載します。
 
-- Windows 10
+- Windows 10 1803 以降
 - CPU: 2.5GHz 以上で、クアッドコア以上
 - メモリ: 8GB 以上
 - GPU: GTX 750Ti 以上の性能を持つもの
