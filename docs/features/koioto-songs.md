@@ -22,6 +22,5 @@ Koioto に初めから収録されている曲です。
 
 - without Permission より
   - Oni: レベル 9
-  - Hard: レベル 6
 - by t+pazolite
   - Twitter: [@tpazolite](https://twitter.com/tpazolite)
