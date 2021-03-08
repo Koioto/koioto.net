@@ -89,6 +89,16 @@ module.exports = {
                 'soundmode'
               ]
             }
+          ],
+          '/plugin/': [
+            {
+              title: 'プラグイン',
+              collapsable: false,
+              children: [
+                '',
+                'samples'
+              ]
+            }
           ]
         },
       }
