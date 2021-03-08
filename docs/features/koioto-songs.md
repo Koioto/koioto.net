@@ -16,6 +16,8 @@ Koioto に初めから収録されている曲です。
   - Twitter: [@machi2244](https://twitter.com/machi2244)
   - SoundCloud: [m4ch1](https://soundcloud.com/m4ch1)
 
+<YouTube id="E-mdhL8zYcw" />
+
 ### Psyched Fevereiro
 
 ![Psyched Fevereiro アルバムアート](/images/features/psyched-fevereiro.png)
@@ -24,3 +26,5 @@ Koioto に初めから収録されている曲です。
   - Oni: レベル 9
 - by t+pazolite
   - Twitter: [@tpazolite](https://twitter.com/tpazolite)
+
+<YouTube id="tZ1nd0F1JdY" />
