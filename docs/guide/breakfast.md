@@ -14,7 +14,7 @@ Koioto を使い始めるのは極めてシンプルです。サイトからフ�
 
 ![プラグインの有効化ダイアログ](/images/guide/trust-plugin.png)
 
-ダウンロードした Koioto には、はじめからいくつかの[プラグイン](/plugin/)が同梱されているので、そのプラグインを有効化するかどうか初回起動時に訊かれます。同梱されている全てのプラグインを有効にする必要はありませんが、初めから収録されている曲である [Koioto Songs](/features/koioto-songs.html) を再生するには、「Open Taiko Chart」形式を読み込むプラグインである `Koioto.SamplePlugin.OpenTaikoChart.FileReader` を有効化する必要があります。
+ダウンロードした Koioto には、はじめからいくつかの[サンプルプラグイン](/plugin/samples.html)が同梱されているので、そのプラグインを有効化するかどうか初回起動時に訊かれます。同梱されている全てのプラグインを有効にする必要はありませんが、初めから収録されている曲である [Koioto Songs](/features/koioto-songs.html) を再生するには、「Open Taiko Chart」形式を読み込むプラグインである `Koioto.SamplePlugin.OpenTaikoChart.FileReader` を有効化する必要があります。
 
 ![選曲画面](/images/guide/song-select.png)
 
