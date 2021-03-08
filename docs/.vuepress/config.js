@@ -90,6 +90,16 @@ module.exports = {
               ]
             }
           ],
+          '/theme/': [
+            {
+              title: 'テーマ',
+              collapsable: false,
+              children: [
+                '',
+                'draworder'
+              ]
+            }
+          ],
           '/plugin/': [
             {
               title: 'プラグイン',
