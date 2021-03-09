@@ -4,6 +4,8 @@ Koioto 初の正式リリース Ver. です。2021 年 3 月 9 日に公開さ�
 
 <Download link="/files/Koioto-Ver.0.39.zip" label="Ver.0.39">ダウンロード (26.2 MB)</Download>
 
+SHA1: `E024D98244AC1B95BCBF3D9E03E18CE6C586CE44`
+
 ::: warning Windows 標準の解凍機能で解凍する場合
 こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
 :::
