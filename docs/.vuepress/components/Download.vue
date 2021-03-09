@@ -28,7 +28,7 @@ export default {
     },
     methods: {
         clicked: function() {
-            ga('send', 'event', action, category, label);
+            ga('send', 'event', this.action, this.category, this.label);
         }
     }
 }
