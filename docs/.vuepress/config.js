@@ -12,7 +12,7 @@ module.exports = {
     '/': {
       lang: 'ja',
       title: 'Koioto',
-      description: 'はつ恋のように新しい音を。',
+      description: 'はつ恋のように新しい音を――The most modern taiko chart player.',
     }
   },
   head: [
