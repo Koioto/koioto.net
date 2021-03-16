@@ -4,7 +4,7 @@
 
 <Download link="/files/Koioto-Ver.0.40.zip" label="Ver.0.40">ダウンロード (26.2 MB)</Download>
 
-SHA1: `E024D98244AC1B95BCBF3D9E03E18CE6C586CE44`
+SHA1: `859306A13B40E9131594799280E7575B10BD7788`
 
 ::: warning Windows 標準の解凍機能で解凍する場合
 こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
