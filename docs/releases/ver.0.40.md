@@ -10,6 +10,10 @@ SHA1: `E4C45454C0DDCB78CEF7746C727EA2CAC8D9205C`
 こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
 :::
 
+::: warning 古い Koioto からアップデートする場合
+こちらを参照してください: [アップデートをするときは](/update.html)
+:::
+
 ダウンロードされるファイルには以下の内容が含まれています。
 
 - Koioto 本体
