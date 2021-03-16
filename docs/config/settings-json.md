@@ -203,12 +203,21 @@ SE (効果音) の音量を指定します。0.0 から 1.0 の範囲です。
 
 譜面の再生停止中に、Koioto のウィンドウにフォーカスが当たると、[ホットリロード](/features/hotreload.html)するかどうかを指定します。譜面制作者向けの機能です。
 
-### `keepSongListScrolling`
+### `keepSongListScrolling` <Badge text="~ Ver.0.39" type="warn"/>
 
 - 種類: 真理値
 - デフォルト値: `true`
 
-選曲画面でフォルダから上の階層に戻った時、スクロールした位置を記憶しておくかどうかを指定します。
+選曲画面でフォルダから上の階層に戻ったとき、スクロールした位置を記憶しておくかどうかを指定します。
+
+[Ver.0.40](/releases/ver.0.40.html) 以降この設定は削除されています。
+
+### `keepSelectedSong` <Badge text="Ver.0.40 ~" type="tip"/>
+
+- 種類: 真理値
+- デフォルト値: `true`
+
+選曲画面に戻ったとき、前回再生の曲を選択したままにするか指定します。
 
 ### `playerBackgroundEffect`
 
