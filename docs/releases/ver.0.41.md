@@ -1,0 +1,42 @@
+# Ver.0.41
+
+<!-- [Ver.0.39](./ver.0.39.html) で発生していた不具合を修正し、安定性を高めた Ver. です。2021 年 3 月 16 日に公開されました。 -->
+
+<!-- <Download link="/files/Koioto-Ver.0.41.zip" label="Ver.0.41">ダウンロード (26.2 MB)</Download> -->
+
+<!-- SHA1: `E4C45454C0DDCB78CEF7746C727EA2CAC8D9205C` -->
+
+::: warning Windows 標準の解凍機能で解凍する場合
+こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
+:::
+
+::: warning 古い Koioto からアップデートする場合
+こちらを参照してください: [アップデートをするときは](/update.html)
+:::
+
+ダウンロードされるファイルには以下の内容が含まれています。
+
+- Koioto 本体
+- デフォルトテーマ Supernova
+- [Koioto Songs](/features/koioto-songs.html)
+  - 春色ジェミネーション
+  - Psyched Fevereiro
+- [サンプルプラグイン](/plugin/samples.html)
+  - MissSound
+  - SyncLyrics
+  - OpenTaikoChart
+
+## 追加
+
+- [SyncLyrics](/plugin/samples.html#synclyrics) にカスタムフォントを指定する設定を追加s
+
+## 変更
+
+- 日本語翻訳の修正
+- リザルト画面のスコア表示の UI を統一
+- 一部画像の更新
+
+## 削除
+
+- 左端で正しく音符が表示されない不具合を削除
+- 音源ファイルが存在しない場合に、再生画面で強制終了することがある不具合を削除
