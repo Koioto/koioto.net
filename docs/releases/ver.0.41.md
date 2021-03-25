@@ -28,7 +28,7 @@
 
 ## 追加
 
-- [SyncLyrics](/plugin/samples.html#synclyrics) にカスタムフォントを指定する設定を追加s
+- [SyncLyrics](/plugin/samples.html#synclyrics) にカスタムフォントを指定する設定を追加
 
 ## 変更
 
