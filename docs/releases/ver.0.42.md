@@ -1,10 +1,10 @@
 # Ver.0.42
 
-情報ダイアログを追加し、ユーザーインタフェースをより使いやすくした Ver. です。2021 年 6 月 3 日に公開されました。
+情報パネルを追加し、ユーザーインタフェースをより使いやすくした Ver. です。2021 年 6 月 3 日に公開されました。
 
 <Download link="/files/Koioto-Ver.0.42.zip" label="Ver.0.42">ダウンロード (26.2 MB)</Download>
 
-SHA1: `EA23D0DC0492E90AC332BFFF84BEEA0B90CBF412`
+SHA1: `42C83B66549AC248BCF3BCA3B9E7DDB637612D94`
 
 ::: warning Windows 標準の解凍機能で解凍する場合
 こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
@@ -28,7 +28,7 @@ SHA1: `EA23D0DC0492E90AC332BFFF84BEEA0B90CBF412`
 
 ## 追加
 
-- 情報ダイアログの追加
+- 情報パネルの追加
 - [再生オプション](/features/playing-options.html)に閉じるボタンを追加
 
 ## 変更
@@ -39,3 +39,5 @@ SHA1: `EA23D0DC0492E90AC332BFFF84BEEA0B90CBF412`
 ## 削除
 
 - [再生オプション](/features/playing-options.html)から注意書きを削除
+- サンプルプラグイン SyncLyrics で正しく歌詞が読み込めない不具合を削除
+- スクロールする UI の挙動が正しくない不具合を削除
