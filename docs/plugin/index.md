@@ -40,7 +40,7 @@ Koioto プラグインは Koioto の決まったタイミングで呼ばれま�
 
 どちらも Koioto 内部の処理が終わった後に実行されます。イベントの場合、メソッドの引数からそのイベントでどのようなことが起こったか情報を得ることができるものもあります。
 
-Koioto プラグインを実装するには、``Koioto.Plugin.Overlay`` を継承したクラスが必要です。必要に応じて、各メソッドをオーバーライドする必要があります。
+Koioto プラグインを実装するには、``Koioto.Plugin.KoiotoPlugin`` を継承したクラスが必要です。必要に応じて、各メソッドをオーバーライドする必要があります。
 
 Koioto プラグインのサンプルが、GitHub にあります ([MissSound](https://github.com/Koioto/MissSound)/[SyncLyric](https://github.com/Koioto/SyncLyrics))。
 
@@ -54,7 +54,7 @@ Koioto プラグインのサンプルが、GitHub にあります ([MissSound](h
 - ファイル名を受け取ったら、演奏画面で表示するために必要な情報を Koioto に返す。
 - ファイル名を受け取ったら、どのような譜面の配置なのかを Koioto に返す。
 
-譜面読み込みプラグインを実装するには、``Koioto.Plugin.IFileReadable``を実装したクラスが必要です。``IFileReadable``はインターフェースなので、全てのメソッドについて実装する必要があります。
+譜面読み込みプラグインを実装するには、``Koioto.Plugin.IChartReadable``を実装したクラスが必要です。``IChartReadable``はインターフェースなので、全てのメソッドについて実装する必要があります。
 
 譜面読み込みプラグインのサンプルが、GitHub にあります ([OpenTaikoChart](https://github.com/Koioto/OpenTaikoChart))。
 
@@ -80,14 +80,14 @@ Koioto のプラグインを制作するには、いくつかの DLL を使用�
 
 Koioto がプラグインであると認識するために、クラスを継承する必要があります。
 
-Koioto プラグインの場合 ``Koioto.Plugin.Overlay``、譜面読み込みプラグインの場合 ``Koioto.Plugin.IFileReadable`` を継承します。
+Koioto プラグインの場合 ``Koioto.Plugin.KoiotoPlugin``、譜面読み込みプラグインの場合 ``Koioto.Plugin.IChartReadable`` を継承・実装します。
 
 例えば、MissSound という名前の Koioto プラグインを作成する場合、このように名前空間とクラスを記述します。
 
 ```cs
 namespace AioiLight.KoiotoPlugin.MissSound
 {
-    public class MissSound : Koioto.Plugin.Overlay
+    public class MissSound : Koioto.Plugin.KoiotoPlugin
     {
         // ここにプラグインの情報や処理を記述していく
     }
@@ -96,7 +96,7 @@ namespace AioiLight.KoiotoPlugin.MissSound
 
 **名前空間は他のプラグインと衝突を避けるため、必ず被らないように命名してください**。推奨される命名規則としては、個人、組織、団体名を先頭に付けることです。
 
-``Koioto.Plugin.Overlay`` を継承したことにより、処理を記述していくメソッドのオーバーライドができるようになりました。例えば、プラグインが有効化されたときに処理される ``OnEnable()`` や、音符が叩かれたときに処理される ``OnHitNote(Chip)`` などです。
+``Koioto.Plugin.KoiotoPlugin`` を継承したことにより、処理を記述していくメソッドのオーバーライドができるようになりました。例えば、プラグインが有効化されたときに処理される ``OnEnable()`` や、音符が叩かれたときに処理される ``OnHitNote(Chip)`` などです。
 
 ```cs
 // プラグインが有効化されたときの処理
