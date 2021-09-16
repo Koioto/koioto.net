@@ -22,41 +22,41 @@ Koioto では、プラグインを導入することで、Koioto の動作や見
 
 プラグインは、大きく分けて2つの種類があります。
 
-- ``Koioto.Plugin.Overlay``。ここでは、オーバーレイプラグインと呼びます。
-- ``Koioto.Plugin.FileReader``。ここでは、ファイル読み込みプラグインと呼びます。
+- ``Koioto.Plugin.Overlay``。ここでは、Koioto プラグインと呼びます。
+- ``Koioto.Plugin.FileReader``。ここでは、譜面読み込みプラグインと呼びます。
 
-オーバーレイプラグインは、Koioto にさらに画像や文字を重ね合わせることができるものです。音を鳴らすことも可能です。画面の見た目を変えたい場合、こちらのプラグインを制作します。
+Koioto プラグインは、Koioto にさらに画像や文字を重ね合わせることができるものです。音を鳴らすことも可能です。画面の見た目を変えたい場合、こちらのプラグインを制作します。
 
-ファイル読み込みプラグインは、Koioto で読み込めるファイルのフォーマット (拡張子) を増やすことができるものです。
+譜面読み込みプラグインは、Koioto で読み込めるファイルのフォーマット (拡張子) を増やすことができるものです。
 
-## オーバーレイプラグイン
+## Koioto プラグイン
 
 ### 仕様
 
-オーバーレイプラグインは Koioto の決まったタイミングで呼ばれます。タイミングは大まかに分類すると2つに分かれます。
+Koioto プラグインは Koioto の決まったタイミングで呼ばれます。タイミングは大まかに分類すると2つに分かれます。
 
 - 常時実行。演奏画面、タイトル画面など特定のシーンを表示している場合に処理される。
 - イベント。音符を叩いた、スコアが変化した、などの条件を伴って処理される。
 
 どちらも Koioto 内部の処理が終わった後に実行されます。イベントの場合、メソッドの引数からそのイベントでどのようなことが起こったか情報を得ることができるものもあります。
 
-オーバーレイプラグインを実装するには、``Koioto.Plugin.Overlay`` を継承したクラスが必要です。必要に応じて、各メソッドをオーバーライドする必要があります。
+Koioto プラグインを実装するには、``Koioto.Plugin.Overlay`` を継承したクラスが必要です。必要に応じて、各メソッドをオーバーライドする必要があります。
 
-オーバーレイプラグインのサンプルが、GitHub にあります ([MissSound](https://github.com/Koioto/MissSound)/[SyncLyric](https://github.com/Koioto/SyncLyrics))。
+Koioto プラグインのサンプルが、GitHub にあります ([MissSound](https://github.com/Koioto/MissSound)/[SyncLyric](https://github.com/Koioto/SyncLyrics))。
 
-## ファイル読み込みプラグイン
+## 譜面読み込みプラグイン
 
 ### 仕様
 
-ファイル読み込みプラグインは Koioto で読み込みるファイルのフォーマット(拡張子)を増やすことができます。ファイル読み込み機能を実装するために、いくつかの機能が必要になります:
+譜面読み込みプラグインは Koioto で読み込みるファイルのフォーマット(拡張子)を増やすことができます。ファイル読み込み機能を実装するために、いくつかの機能が必要になります:
 
 - 何の拡張子を読み込めるか。(e.g. ``.tci``、``.tcm``、``.tja``、``.osu``)
 - ファイル名を受け取ったら、演奏画面で表示するために必要な情報を Koioto に返す。
 - ファイル名を受け取ったら、どのような譜面の配置なのかを Koioto に返す。
 
-ファイル読み込みプラグインを実装するには、``Koioto.Plugin.IFileReadable``を実装したクラスが必要です。``IFileReadable``はインターフェースなので、全てのメソッドについて実装する必要があります。
+譜面読み込みプラグインを実装するには、``Koioto.Plugin.IFileReadable``を実装したクラスが必要です。``IFileReadable``はインターフェースなので、全てのメソッドについて実装する必要があります。
 
-ファイル読み込みプラグインのサンプルが、GitHub にあります ([OpenTaikoChart](https://github.com/Koioto/OpenTaikoChart))。
+譜面読み込みプラグインのサンプルが、GitHub にあります ([OpenTaikoChart](https://github.com/Koioto/OpenTaikoChart))。
 
 ## プラグインの制作
 
@@ -80,9 +80,9 @@ Koioto のプラグインを制作するには、いくつかの DLL を使用�
 
 Koioto がプラグインであると認識するために、クラスを継承する必要があります。
 
-オーバーレイプラグインの場合 ``Koioto.Plugin.Overlay``、ファイル読み込みプラグインの場合 ``Koioto.Plugin.IFileReadable`` を継承します。
+Koioto プラグインの場合 ``Koioto.Plugin.Overlay``、譜面読み込みプラグインの場合 ``Koioto.Plugin.IFileReadable`` を継承します。
 
-例えば、MissSound という名前のオーバーレイプラグインを作成する場合、このように名前空間とクラスを記述します。
+例えば、MissSound という名前の Koioto プラグインを作成する場合、このように名前空間とクラスを記述します。
 
 ```cs
 namespace AioiLight.KoiotoPlugin.MissSound
