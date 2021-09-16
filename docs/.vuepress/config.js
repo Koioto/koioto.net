@@ -107,7 +107,9 @@ module.exports = {
               children: [
                 '',
                 'samples',
-                'making-plugin'
+                'making-plugin',
+                'making-koioto-plugin',
+                'making-chartreader-plugin'
               ]
             }
           ]
