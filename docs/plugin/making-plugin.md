@@ -32,8 +32,8 @@ Visual Studio で「クラス ライブラリ (.NET Framework)」プロジェク
 
 Koioto プラグインと譜面読み込みプラグインではプラグインの処理が異なるため、記述するプログラムも異なります。
 
-- [Koioto プラグインの制作](#koioto-プラグインの制作)
-- [譜面読み込みプラグインの制作](#譜面読み込みプラグインの制作)
+- [Koioto プラグインの制作](./making-koioto-plugin.html)
+- [譜面読み込みプラグインの制作](./making-chartreader-plugin.html)
 
 ### プロジェクトをビルドして、実際に Koioto に読み込ませる
 
@@ -46,11 +46,3 @@ Koioto プラグインと譜面読み込みプラグインではプラグイン�
 ![プラグインの一覧](/images/plugin/plugin-list.png)
 
 情報パネルで確認すると、実際にプラグインが読み込まれていることが分かります。
-
-## Koioto プラグインの制作
-
-[Koioto プラグインの制作](./making-koioto-plugin.html) を参照してください。
-
-## 譜面読み込みプラグインの制作
-
-[譜面読み込みプラグインの制作](./making-chartreader-plugin.html) を参照してください。
