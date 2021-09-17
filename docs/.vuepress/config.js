@@ -106,7 +106,10 @@ module.exports = {
               collapsable: false,
               children: [
                 '',
-                'samples'
+                'samples',
+                'making-plugin',
+                'making-koioto-plugin',
+                'making-chartreader-plugin'
               ]
             }
           ]

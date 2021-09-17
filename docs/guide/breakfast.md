@@ -19,7 +19,7 @@
 ダウンロードした Koioto には、はじめからいくつかの[サンプルプラグイン](/plugin/samples.html)が同梱されているので、そのプラグインを有効化するかどうか初回起動時に訊かれます。同梱されている全てのプラグインを有効にする必要はありませんが、初めから収録されている曲である [Koioto Songs](/features/koioto-songs.html) を再生するには、「Open Taiko Chart」形式を読み込むプラグインである `Koioto.SamplePlugin.OpenTaikoChart.FileReader` を有効化する必要があります。
 
 ::: tip 
-**Koioto 本体に譜面を読み込む機能は搭載されていません**。必ず、何かしらのファイル読み込みプラグインが必要となります。
+**Koioto 本体に譜面を読み込む機能は搭載されていません**。必ず、何かしらの譜面読み込みプラグインが必要となります。
 :::
 
 ![選曲画面](/images/guide/song-select.png)
