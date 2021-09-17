@@ -1,10 +1,10 @@
 # Ver.0.43
 
-新たに音符の回転に対応した Ver. です。2021 年 - 月 - 日に公開されました。
+新たに音符の回転に対応した Ver. です。2021 年 9 月 18 日に公開されました。
 
-<Download link="/files/Koioto-Ver.0.43.zip" label="Ver.0.43">ダウンロード (-.- MB)</Download>
+<Download link="/files/Koioto-Ver.0.43.zip" label="Ver.0.43">ダウンロード (26.2 MB)</Download>
 
-SHA1: `-`
+SHA1: `53B40C7F68E70076BE3A3E444AF1D938213F05EE`
 
 ::: warning Windows 標準の解凍機能で解凍する場合
 こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
