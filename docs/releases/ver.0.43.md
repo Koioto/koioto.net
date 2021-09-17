@@ -36,7 +36,7 @@ SHA1: `53B40C7F68E70076BE3A3E444AF1D938213F05EE`
 - 一部名称の変更
   - オーバーレイ プラグイン → Koioto プラグイン
   - ファイル読み込みプラグイン → 譜面読み込みプラグイン
-- サンプルプラグイン OpenTaikoChart を更新。Open Taiko Chart Rev.-.- に準拠
+- サンプルプラグイン OpenTaikoChart を更新。Open Taiko Chart Rev.2.3 に準拠
 
 ## 削除
 
