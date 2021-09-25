@@ -2,9 +2,9 @@
 
 [Ver.0.43](./ver.0.43.html) に起因する不具合を修正し、マルチディスプレイ環境に対応した Ver. です。2021 年 9 月 25 日に公開されました。
 
-<Download link="/files/Koioto-Ver.0.44.zip" label="Ver.0.44">ダウンロード ( MB)</Download>
+<Download link="/files/Koioto-Ver.0.44.zip" label="Ver.0.44">ダウンロード (26.2 MB)</Download>
 
-SHA1: ``
+SHA1: `B3CB05DF6FCF793A9084FE996CC85311DC79B1A1`
 
 ::: warning Windows 標準の解凍機能で解凍する場合
 こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
