@@ -2,9 +2,9 @@
 
 いくつかの不具合を修正し、Windows 11 での動作の確認を検証した初めての Ver. です。2021 年 11 月 24 日に公開されました。
 
-<Download link="/files/Koioto-Ver.0.45.zip" label="Ver.0.45">ダウンロード (- MB)</Download>
+<Download link="/files/Koioto-Ver.0.45.zip" label="Ver.0.45">ダウンロード (26.2 MB)</Download>
 
-SHA1: `-`
+SHA1: `F6BE8B1CF18DB69982C3523F677307B1ABC36B1F`
 
 ::: warning Windows 標準の解凍機能で解凍する場合
 こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
