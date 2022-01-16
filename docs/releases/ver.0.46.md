@@ -2,9 +2,9 @@
 
 小節数表示機能を追加し、いくつかの挙動を変更した Ver. です。2022 年 1 月 16 日に公開されました。
 
-<Download link="/files/Koioto-Ver.0.46.zip" label="Ver.0.46">ダウンロード (--.- MB)</Download>
+<Download link="/files/Koioto-Ver.0.46.zip" label="Ver.0.46">ダウンロード (26.2 MB)</Download>
 
-SHA1: `-`
+SHA1: `B6895F4F27A42D2F04EB07EF78F8D58E89454A59`
 
 ::: warning Windows 標準の解凍機能で解凍する場合
 こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
@@ -37,7 +37,6 @@ SHA1: `-`
 - 再生画面のセクション変更時のイベント発火タイミングを微調整
 - 画面遷移時にログの一時保存をするように変更
 - [小節移動時](/features/measure-move.html)の内部処理を変更
-- 使用しているライブラリの更新
 
 ## 削除
 
