@@ -2,9 +2,9 @@
 
 コースアイコンの追加をはじめとするいくつかの機能改善を行った Ver. です。2022 年 2 月 8 日に公開されました。
 
-<Download link="/files/Koioto-Ver.0.47.zip" label="Ver.0.47">ダウンロード (26.2 MB)</Download>
+<Download link="/files/Koioto-Ver.0.47.zip" label="Ver.0.47">ダウンロード (26.3 MB)</Download>
 
-SHA1: `B6895F4F27A42D2F04EB07EF78F8D58E89454A59`
+SHA1: `1255C0D38AB09935805F1FB2A7E2EB64841725CE`
 
 ::: warning Windows 標準の解凍機能で解凍する場合
 こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
