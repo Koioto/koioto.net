@@ -87,7 +87,7 @@ Discord の現在プレイ中のゲームに Koioto を表示するかどうか�
 
 Discord の現在プレイ中のゲームの状況欄に詳細情報を表示するかどうかを指定します。
 
-### `keepOnlyLatestLog`
+### `keepOnlyLatestLog` <Badge text="Ver.0.46 ~" type="tip"/>
 
 - 種類: 真理値
 - デフォルト値: `true`
