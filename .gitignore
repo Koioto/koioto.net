@@ -1,3 +1,7 @@
 node_modules
 docs/.vuepress/dist
 docs/.vuepress/public/files
+
+# Astro
+dist/
+.astro/

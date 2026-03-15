@@ -1,0 +1,21 @@
+/* Koioto カラースキーム */
+:root {
+  --sl-color-accent-low: #7a0f34;
+  --sl-color-accent: #e61b62;
+  --sl-color-accent-high: #f57fa9;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #eeeeee;
+  --sl-color-gray-2: #c2c2c2;
+  --sl-color-gray-3: #8b8b8b;
+  --sl-color-gray-4: #585858;
+  --sl-color-gray-5: #383838;
+  --sl-color-gray-6: #272727;
+  --sl-color-black: #121212;
+}
+
+/* ダーク テーマ */
+:root[data-theme='dark'] {
+  --sl-color-accent-low: #3d0a1c;
+  --sl-color-accent: #e61b62;
+  --sl-color-accent-high: #f57fa9;
+}
