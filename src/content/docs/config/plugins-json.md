@@ -2,8 +2,6 @@
 title: Plugins.json
 ---
 
-# Plugins.json
-
 `Plugins.json` は Koioto で[プラグイン](/plugin/)を使用するか、使用しないかの設定を保存するファイルです。
 
 プラグインを追加すると、Koioto の起動時に使用するかどうかのダイアログが表示されます。ここで選んだ選択が、このファイルに保存されます。

@@ -2,8 +2,6 @@
 title: 操作方法
 ---
 
-# 操作方法
-
 Koioto の操作方法です。いくつかのキー割り当ては、[Settings.json](/config/settings-json.html) から変更することができます。
 
 ## 画面共通

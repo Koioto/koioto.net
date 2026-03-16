@@ -2,8 +2,6 @@
 title: 機能一覧
 ---
 
-# 機能一覧
-
 Koioto の主要な機能の一覧です。
 
 - [Koioto Songs](koioto-songs.html)

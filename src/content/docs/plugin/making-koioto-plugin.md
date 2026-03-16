@@ -2,8 +2,6 @@
 title: Koioto プラグインの制作
 ---
 
-# Koioto プラグインの制作
-
 Koioto プラグインであると認識するために、クラスを継承する必要があります。 ``Koioto.Plugin.KoiotoPlugin``を継承します。
 
 例えば SamplePlugin という名前の Koioto プラグインを作成する場合、このように名前空間とクラスを記述します。

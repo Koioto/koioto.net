@@ -2,8 +2,6 @@
 title: Settings.json
 ---
 
-# Settings.json
-
 Koioto の設定を変更するには、`Settings.json` を編集します。設定項目を消したり、ファイル自体を消すことで、デフォルト値で設定を初期状態に戻すことができます。
 
 一部の設定は、Koioto の起動中に変更することもできますが、Koioto を再起動すると `Settings.json` の設定に戻ります。恒久的に設値を変更するにはこのファイルを編集してください。
