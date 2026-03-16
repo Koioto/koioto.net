@@ -2,7 +2,7 @@
 title: 再生設定
 ---
 
-![再生設定](/images/features/playing-options.png/)
+![再生設定](./images/playing-options.png)
 
 選曲画面の右上のアイコンをクリックして、再生設定を開くことができます。再生設定は、[Settings.json](/config/settings-json/) の一部です。
 
