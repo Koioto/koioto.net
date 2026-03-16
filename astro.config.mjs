@@ -1,8 +1,12 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import remarkEmoji from 'remark-emoji';
 
 export default defineConfig({
   site: 'https://koioto.net',
+  markdown: {
+    remarkPlugins: [remarkEmoji],
+  },
   integrations: [
     starlight({
       title: 'Koioto',
