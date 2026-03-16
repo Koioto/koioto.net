@@ -50,10 +50,6 @@ export default defineConfig({
               label: 'プラグイン',
               autogenerate: { directory: 'plugin' },
             },
-            {
-              label: '譜面制作',
-              autogenerate: { directory: 'chart-making' },
-            },
           ],
         },
       ],
