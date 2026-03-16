@@ -5,3 +5,4 @@ docs/.vuepress/public/files
 # Astro
 dist/
 .astro/
+.claude/settings.local.json
