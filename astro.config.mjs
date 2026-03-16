@@ -1,11 +1,23 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import remarkEmoji from 'remark-emoji';
+import rehypeExternalLinks from 'rehype-external-links';
 
 export default defineConfig({
   site: 'https://koioto.net',
   markdown: {
     remarkPlugins: [remarkEmoji],
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,{
+          target: '_blank',
+          content: {
+            type: 'text',
+            value: ' ⧉'
+          },
+        }
+      ]
+    ],
   },
   integrations: [
     starlight({
