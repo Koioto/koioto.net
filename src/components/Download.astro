@@ -1,0 +1,36 @@
+---
+interface Props {
+  link?: string;
+  label?: string;
+}
+
+const { link = '#', label = 'unknown' } = Astro.props;
+---
+
+<a href={link} class="download-link" data-label={label}>
+  <button class="download-btn">
+    <slot>ダウンロード</slot>
+  </button>
+</a>
+
+<style>
+.download-link {
+  text-decoration: none;
+}
+
+.download-btn {
+  background-color: var(--sl-color-accent);
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  outline: none;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.download-btn:hover {
+  background-color: var(--sl-color-accent-high);
+}
+</style>

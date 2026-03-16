@@ -1,21 +1,24 @@
 {
   "name": "koioto",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.9.7",
-    "@vuepress/plugin-medium-zoom": "^1.9.7",
-    "vuepress": "^1.9.7"
-  },
+  "description": "はつ恋のように新しい音を――The most modern taiko chart player.",
+  "type": "module",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "vuepress-theme-default-prefers-color-scheme": "^1.1.2"
+    "@astrojs/starlight": "^0.30.4",
+    "astro": "^5.4.0",
+    "sharp": "^0.32.5"
+  },
+  "overrides": {
+    "@astrojs/sitemap": "3.6.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.7",
+    "typescript": "^5.9.3"
   }
 }
