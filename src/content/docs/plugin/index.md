@@ -30,7 +30,7 @@ Koioto では、プラグインを導入することで、Koioto の動作や見
 
 ## プラグインの制作
 
-- [プラグインの制作](./making-plugin.html) (全プラグイン共通)
-  - [Koioto プラグインの制作](./making-koioto-plugin.html)
-  - [譜面読み込みプラグインの制作](./making-chartreader-plugin.html)
+- [プラグインの制作](./making-plugin) (全プラグイン共通)
+  - [Koioto プラグインの制作](./making-koioto-plugin)
+  - [譜面読み込みプラグインの制作](./making-chartreader-plugin)
 

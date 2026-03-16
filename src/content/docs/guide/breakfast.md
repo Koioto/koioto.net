@@ -9,28 +9,28 @@ title: ダウンロードと初回起動
 特に理由がない限り、最新バージョンをダウンロードします。1 番新しいバージョンをクリックすると、バージョン別のページに移動します。このページでは、Koioto のダウンロードリンクと、アップデート内容が記載されています。ダウンロードリンクをクリックして、ファイルをダウンロードします。完了したら、ZIP ファイルを解凍します。
 
 :::caution[Windows 標準の解凍機能で解凍する場合]
-こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip.html)
+こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip/)
 :::
 
 ## 初回起動
 
-フォルダの中にある `Koioto.exe` を起動します。初回起動は[設定ファイル](/config/settings-json.html)を作るため、少し時間がかかります。
+フォルダの中にある `Koioto.exe` を起動します。初回起動は[設定ファイル](/config/settings-json/)を作るため、少し時間がかかります。
 
-![プラグインの有効化ダイアログ](/images/guide/trust-plugin.png)
+![プラグインの有効化ダイアログ](/images/guide/trust-plugin.png/)
 
-ダウンロードした Koioto には、はじめからいくつかの[サンプルプラグイン](/plugin/samples.html)が同梱されているので、そのプラグインを有効化するかどうか初回起動時に訊かれます。同梱されている全てのプラグインを有効にする必要はありませんが、初めから収録されている曲である [Koioto Songs](/features/koioto-songs.html) を再生するには、「Open Taiko Chart」形式を読み込むプラグインである `Koioto.SamplePlugin.OpenTaikoChart.FileReader` を有効化する必要があります。
+ダウンロードした Koioto には、はじめからいくつかの[サンプルプラグイン](/plugin/samples/)が同梱されているので、そのプラグインを有効化するかどうか初回起動時に訊かれます。同梱されている全てのプラグインを有効にする必要はありませんが、初めから収録されている曲である [Koioto Songs](/features/koioto-songs/) を再生するには、「Open Taiko Chart」形式を読み込むプラグインである `Koioto.SamplePlugin.OpenTaikoChart.FileReader` を有効化する必要があります。
 
 :::tip
 **Koioto 本体に譜面を読み込む機能は搭載されていません**。必ず、何かしらの譜面読み込みプラグインが必要となります。
 :::
 
-![選曲画面](/images/guide/song-select.png)
+![選曲画面](/images/guide/song-select.png/)
 
 起動が完了すると、曲を選択する画面が表示されます。
 
-![設定ファイル](/images/guide/configs.png)
+![設定ファイル](/images/guide/configs.png/)
 
-初回起動に成功すると、`Koioto.exe` と同じフォルダに [`Settings.json`](/config/settings-json.html) と [`Plugins.json`](/config/plugins-json.html) が作成されます。これらが Koioto の設定ファイルです。設定項目については、[設定](/config/)を参照してください。
+初回起動に成功すると、`Koioto.exe` と同じフォルダに [`Settings.json`](/config/settings-json/) と [`Plugins.json`](/config/plugins-json/) が作成されます。これらが Koioto の設定ファイルです。設定項目については、[設定](/config/)を参照してください。
 
 ## エラーが発生する場合は……？
 

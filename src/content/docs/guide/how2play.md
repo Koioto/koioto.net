@@ -2,7 +2,7 @@
 title: 操作方法
 ---
 
-Koioto の操作方法です。いくつかのキー割り当ては、[Settings.json](/config/settings-json.html) から変更することができます。
+Koioto の操作方法です。いくつかのキー割り当ては、[Settings.json](/config/settings-json/) から変更することができます。
 
 ## 画面共通
 
@@ -10,17 +10,17 @@ Koioto の操作方法です。いくつかのキー割り当ては、[Settings.
 
 - デフォルト: マウスクリック
 
-### [スクリーンショット](/features/screenshot.html)
+### [スクリーンショット](/features/screenshot/)
 
 - デフォルト: <kbd>F12</kbd>
 
-[スクリーンショット](/features/screenshot.html)を撮影します。
+[スクリーンショット](/features/screenshot/)を撮影します。
 
-### [スクリーンショット](/features/screenshot.html)のコピー
+### [スクリーンショット](/features/screenshot/)のコピー
 
 - デフォルト: <kbd><kbd>Ctrl</kbd>+<kbd>C</kbd></kbd>
 
-[スクリーンショット](/features/screenshot.html)の撮影後、ボタンを押すことでクリップボードにコピーできます。
+[スクリーンショット](/features/screenshot/)の撮影後、ボタンを押すことでクリップボードにコピーできます。
 
 ### 再生モードの切り替え
 
@@ -68,8 +68,8 @@ Koioto の操作方法です。いくつかのキー割り当ては、[Settings.
 
 ### 小節の移動
 
-[小節移動](/features/measure-move.html)を参照。
+[小節移動](/features/measure-move/)を参照。
 
 ### ホットリロード
 
-[ホットリロード](/features/hotreload.html)を参照。
+[ホットリロード](/features/hotreload/)を参照。

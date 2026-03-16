@@ -8,11 +8,11 @@ Windows のスクリーンショットはウィンドウの大きさで解像度
 
 ## 撮影
 
-キー (デフォルト: `F12`) を押して、スクリーンショットを撮影します。撮影に成功すると、[デフォルトのテーマ](supernova.html)では左下にスクリーンショットのプレビューが表示されます。
+キー (デフォルト: `F12`) を押して、スクリーンショットを撮影します。撮影に成功すると、[デフォルトのテーマ](supernova)では左下にスクリーンショットのプレビューが表示されます。
 
 :::tip[スクリーンショットのプレビュー]
 
-[Settings.json](/config/settings-json.html) で [`screenshotPreview`](/config/settings-json.html#screenshotpreview) をオフにすることで、プレビューを表示せずに撮影することができます。
+[Settings.json](/config/settings-json/) で [`screenshotPreview`](/config/settings-json/#screenshotpreview) をオフにすることで、プレビューを表示せずに撮影することができます。
 
 プレビューがオフでも、後述のクリップボードにコピーする機能は使えます。
 

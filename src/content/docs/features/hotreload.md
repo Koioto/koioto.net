@@ -15,7 +15,7 @@ title: ホットリロード
 
 :::tip[アクティブホットリロード]
 
-**デフォルトの設定ではオフになっています**。有効化するには、[Settings.json](/config/settings-json.html) で [`activeHotReload`](/config/settings-json.html#activehotreload) をオンにします。
+**デフォルトの設定ではオフになっています**。有効化するには、[Settings.json](/config/settings-json/) で [`activeHotReload`](/config/settings-json/#activehotreload) をオンにします。
 
 :::
 

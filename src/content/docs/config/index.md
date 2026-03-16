@@ -2,6 +2,6 @@
 title: 設定
 ---
 
-- [Settings.json](settings-json.html)
-- [Plugins.json](plugins-json.html)
-- [サウンドモード](soundmode.html)
+- [Settings.json](settings-json)
+- [Plugins.json](plugins-json)
+- [サウンドモード](soundmode)

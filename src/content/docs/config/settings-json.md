@@ -63,7 +63,7 @@ Koioto の設定を変更するには、`Settings.json` を編集します。設
 - 種類: 文字列
 - デフォルト値: `”Wasapi”`
 
-[サウンドモード](soundmode.html)を指定します。
+[サウンドモード](soundmode)を指定します。
 
 - `DirectSound`
 - `Wasapi`
@@ -210,7 +210,7 @@ SE (効果音) の音量を指定します。0.0 から 1.0 の範囲です。
 - 種類: 真理値
 - デフォルト値: `false`
 
-譜面の再生停止中に、Koioto のウィンドウにフォーカスが当たると、[ホットリロード](/features/hotreload.html)するかどうかを指定します。譜面制作者向けの機能です。
+譜面の再生停止中に、Koioto のウィンドウにフォーカスが当たると、[ホットリロード](/features/hotreload/)するかどうかを指定します。譜面制作者向けの機能です。
 
 ### `keepSongListScrolling` <Badge text="~ Ver.0.39" type="warn"/>
 
@@ -219,7 +219,7 @@ SE (効果音) の音量を指定します。0.0 から 1.0 の範囲です。
 
 選曲画面でフォルダから上の階層に戻ったとき、スクロールした位置を記憶しておくかどうかを指定します。
 
-[Ver.0.40](/releases/ver.0.40.html) 以降この設定は削除されています。
+[Ver.0.40](/releases/ver.0.40/) 以降この設定は削除されています。
 
 ### `keepSelectedSong` <Badge text="Ver.0.40 ~" type="tip"/>
 
