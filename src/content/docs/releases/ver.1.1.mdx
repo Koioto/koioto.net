@@ -1,0 +1,51 @@
+---
+title: Ver.1.1
+---
+
+import Download from '../../../components/Download.astro';
+
+キー入力による画面操作などをはじめとし、いくつかの機能改善を行った Ver. です。2026 年 3 月 18 日に公開されました。
+
+このバージョン以降、Koioto の動作には .NET 10 ランタイムが必要です。詳しくは[動作環境](/guide/env/)をご覧ください。
+
+<Download link="/files/Koioto-Ver.1.1.zip" label="Ver.1.1">ダウンロード (26.5 MB)</Download>
+
+SHA1: `3024b981207b46c4383dcf2dc1a06484a651c410`
+
+:::caution[Windows 標準の解凍機能で解凍する場合]
+こちらを参照してください: [Windows 標準の解凍機能で Koioto を解凍する場合](/unzip/)
+:::
+
+:::caution[古い Koioto からアップデートする場合]
+こちらを参照してください: [アップデートをするときは](/update/)
+:::
+
+ダウンロードされるファイルには以下の内容が含まれています。
+
+- Koioto 本体
+- デフォルトテーマ Supernova
+- [Koioto Songs](/features/koioto-songs/)
+  - 春色ジェミネーション
+  - Psyched Fevereiro
+- [サンプルプラグイン](/plugin/samples/)
+  - MissSound
+  - SyncLyrics
+  - OpenTaikoChart
+
+## 追加
+
+- キー操作で曲選択・難易度選択・メニュー選択ができる機能を追加
+- 両縁キーを素早く 2 回押すことで曲フォルダ・難易度選択・ダイアログを閉じることができる機能を追加
+- OS の言語ではなく任意の言語を使用することができる設定項目 [`preferredLanguage`](/config/settings-json/#preferredlanguage) を追加
+- 簡体字・繁体字の中国語翻訳を追加 (ZhongTaiko さん、翻訳のご協力ありがとうございます。)
+- テーマファイルにフォントのウエイトを選択できる機能を追加
+
+## 変更
+
+- .NET Framework 4.7.2 から .NET 10 へ変更
+- 各種ライブラリの更新
+
+## 削除
+
+- フォントとしてバリアブルフォントが指定されている場合、表示がおかしくなる不具合を削除
+
