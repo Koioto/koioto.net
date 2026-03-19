@@ -8,6 +8,7 @@ export const collections = {
     schema: docsSchema({
       extend: z.object({
         version: z.string().optional(),
+        versionCode: z.number().optional(),
         channel: z.enum(['stable', 'beta']).optional(),
       }),
     }),
