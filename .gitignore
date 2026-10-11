@@ -1,6 +1,4 @@
 node_modules
-docs/.vuepress/dist
-/public/files
 
 # Astro
 dist/
