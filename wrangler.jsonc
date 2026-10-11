@@ -3,6 +3,7 @@
   "name": "koioto",
   "compatibility_date": "2026-10-06",
   "assets": {
-    "directory": "dist"
+    "directory": "dist",
+    "not_found_handling": "404-page"
   }
 }
