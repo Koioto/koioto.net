@@ -6,3 +6,10 @@ docs/.vuepress/dist
 dist/
 .astro/
 .claude/settings.local.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

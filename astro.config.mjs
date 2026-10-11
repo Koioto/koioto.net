@@ -3,8 +3,11 @@ import starlight from '@astrojs/starlight';
 import remarkEmoji from 'remark-emoji';
 import rehypeExternalLinks from 'rehype-external-links';
 
+import cloudflare from "@astrojs/cloudflare";
+
 export default defineConfig({
   site: 'https://koioto.net',
+
   markdown: {
     remarkPlugins: [remarkEmoji],
     rehypePlugins: [
@@ -19,6 +22,7 @@ export default defineConfig({
       ]
     ],
   },
+
   integrations: [
     starlight({
       title: 'Koioto',
@@ -72,4 +76,6 @@ export default defineConfig({
       customCss: ['./src/styles/custom.css'],
     }),
   ],
+
+  adapter: cloudflare()
 });
