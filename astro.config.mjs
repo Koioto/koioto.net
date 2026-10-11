@@ -4,25 +4,26 @@ import remarkEmoji from 'remark-emoji';
 import rehypeExternalLinks from 'rehype-external-links';
 
 import cloudflare from "@astrojs/cloudflare";
+import { unified } from '@astrojs/markdown-remark';
 
 export default defineConfig({
   site: 'https://koioto.net',
-
   markdown: {
-    remarkPlugins: [remarkEmoji],
-    rehypePlugins: [
-      [
-        rehypeExternalLinks,{
-          target: '_blank',
-          content: {
-            type: 'text',
-            value: ' ⧉'
-          },
-        }
-      ]
-    ],
+    processor: unified({
+      remarkPlugins: [remarkEmoji],
+      rehypePlugins: [
+        [
+          rehypeExternalLinks,{
+            target: '_blank',
+            content: {
+              type: 'text',
+              value: ' ⧉'
+            },
+          }
+        ]
+      ],
+    }),
   },
-
   integrations: [
     starlight({
       title: 'Koioto',
@@ -38,37 +39,37 @@ export default defineConfig({
         src: './src/assets/logo/brand.png',
       },
       favicon: '/favicon.ico',
-      social: {
-        github: 'https://github.com/Koioto',
-        discord: 'https://discord.gg/kaF5Nc6',
-      },
+      social: [
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/Koioto' },
+        { icon: 'discord', label: 'Discord', href: 'https://discord.gg/kaF5Nc6' },
+      ],
       sidebar: [
         {
           label: 'ガイド',
-          autogenerate: { directory: 'guide' },
+          items: [{autogenerate: { directory: 'guide' }}],
         },
         {
           label: 'ダウンロード',
-          autogenerate: { directory: 'releases' },
+          items: [{autogenerate: { directory: 'releases' }}],
         },
         {
           label: '機能',
-          autogenerate: { directory: 'features' },
+          items: [{autogenerate: { directory: 'features' }}],
         },
         {
           label: '設定',
-          autogenerate: { directory: 'config' },
+          items: [{autogenerate: { directory: 'config' }}],
         },
         {
           label: '開発者向け',
           items: [
             {
               label: 'テーマ',
-              autogenerate: { directory: 'theme' },
+              items: [{autogenerate: { directory: 'theme' }}],
             },
             {
               label: 'プラグイン',
-              autogenerate: { directory: 'plugin' },
+              items: [{autogenerate: { directory: 'plugin' }}],
             },
           ],
         },
@@ -76,6 +77,4 @@ export default defineConfig({
       customCss: ['./src/styles/custom.css'],
     }),
   ],
-
-  adapter: cloudflare()
 });
